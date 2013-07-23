@@ -1,0 +1,13 @@
+libjs-jquery-keyboard for Debian
+--------------------------------
+
+In order to make use of Keyboard widget in your html, include the following
+lines in your html header:
+
+       <script language="javascript" type="text/javascript"
+       src="/javascript/jquery/jquery.js"></script>
+
+       <script language="javascript" type="text/javascript"
+       src="/javascript/jquery-mousewheel/jquery.mousewheel.js"></script>
+
+ -- Michal Špaček <tupinek@gmail.com>  Tue, 23 Jul 2013 14:58:15 +0200

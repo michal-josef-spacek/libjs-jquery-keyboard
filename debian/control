@@ -1,0 +1,16 @@
+Source: libjs-jquery-keyboard
+Section: web
+Priority: optional
+Maintainer: Michal Špaček <tupinek@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+Vcs-Browser: https://github.com/tupinek/libjs-jquery-keyboard.git
+Vcs-Git: git://git@github.com:tupinek/libjs-jquery-keyboard.git
+
+Package: libjs-jquery-keyboard
+Architecture: all
+Depends: ${misc:Depends}, libjs-jquery, libjs-jquery-mousewheel
+Recommends: javascript-common
+Homepage: https://github.com/Mottie/Keyboard
+Description: jQuery Keyboard
+ A jquery keyboard widget.
